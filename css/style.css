@@ -577,3 +577,11 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+#donate-button-container{
+width :1000px;
+height :auto; 
+/* buttonShort.style.background = 'teal'; 
+buttonShort.style.color = 'white';
+buttonShort.style.fontSize = '20px'; 
+*/
+}
