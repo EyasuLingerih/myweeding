@@ -92,7 +92,8 @@ button:focus {
 
 .cardList {
   position: absolute;
-  width: calc(3 * var(--card-width));
+  top: 40%;
+  width: calc(6 * var(--card-width));
   height: auto;
 }
 .cardList__btn {
@@ -129,7 +130,7 @@ button:focus {
   --card-translateY-offset: 100vh;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 20%;
   transform: translate(-50%, -50%) translateX(var(--card-translateX-offset)) translateY(var(--card-translateY-offset)) rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
   display: inline-block;
   width: var(--card-width);
@@ -141,7 +142,7 @@ button:focus {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: -25px;
   width: 100%;
   height: 100%;
   background: #000;
@@ -177,14 +178,30 @@ button:focus {
   --card-translateX-offset: calc(var(--card-width) * 1.6);
   --card-rotation-offset: -65deg;
 }
-.card.previous--card, .card.next--card {
+
+.card next--card1 {
+  --current-card-rotation-offset: 0;
+  --card-translateX-offset: 0;
+  --card-rotation-offset: var(--current-card-rotation-offset);
+  --card-scale-offset: 1.2;
+  --opacity: 10;
+}
+.card next--card2 {
+  --card-translateX-offset: calc(-.9 * var(--card-width) * 1.4);
+  --card-rotation-offset: 65deg;
+}
+.card next--card3 {
+  --card-translateX-offset: calc(var(--card-width) * 1.6);
+  --card-rotation-offset: -65deg;
+}
+.card.previous--card, .card.next--card, .card.next--card1, .card.next--card2, .card.next--card3 {
   --card-scale-offset: 0.9;
   --opacity:10;
 }
 
 .infoList {
   position: absolute;
-  width: calc(3 * var(--card-width));
+  width: calc(6 * var(--card-width));
   height: var(--card-height);
   pointer-events: none;
 }
