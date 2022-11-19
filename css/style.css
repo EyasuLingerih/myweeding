@@ -578,6 +578,12 @@ a {
 	letter-spacing: 0pt;
 }
 #donate-button-container{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+}
+#donate-button-container a{
 width :1000px;
 height :auto; 
 /* buttonShort.style.background = 'teal'; 
