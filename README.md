@@ -8,7 +8,7 @@
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://sonali.netlify.app/"><img src="./assets/img/sonali.jpeg" /></a>
+  <a href="https://idya-eyasu.netlify.app/"><img src="./assets/img/sonali.jpeg" /></a>
 </details>
 
 With the divine grace of the almighty,
