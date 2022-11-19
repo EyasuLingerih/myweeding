@@ -25,7 +25,7 @@
 
 ```js
 
-const newCouple = 'Sonali & Gagan';
+const newCouple = 'Lidya & Eyasu';
 
 // Nov 29, 2020
 const weddingDate = new Date(2020, 11, 29);
