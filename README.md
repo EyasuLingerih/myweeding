@@ -39,7 +39,7 @@ const weddingVenue = new Location('Ashirwad Garden, Ranchi');
 
     // your presence is requested
     (new Wedding()).acceptInvitation(
-        window.open('https://sonali.netlify.app/')
+        window.open('https://idya-eyasu.netlify.app/')
     );
 })();
 
