@@ -65,11 +65,30 @@
          Can't wait to celebrate this wonderful time  with you! <br>
           
          <span></span>
-      </p>
+         <div id="donate-button-container" class="donate">
+           <!-- <p class="footer">Send Gift</p>
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'EG8CQ9DYH2D6G',
+            image: {
+               src:"/assets/paypal.png",
+            // src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif',
+            alt:'Donate with PayPal button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            
+           // buttonShort.style.fontSize = '20px';
+            </script>
+            </div>
+      </p> -->
       <div class="music">
         <audio src="./assets/mp3/song.mp3" id="my_audio" loop="loop"></audio> 
       </div>
-     
+         </div>
       <p class="happiness">Join us on Zoom<br></p>
          <div class="social">
             <button id="close-image" onclick="window.location.href=
@@ -81,30 +100,19 @@
              
             <span></span>
          </p>
-   
+         <div class="gift">
+            <a href="sendgift.html" target="_blank">
+               <div class="venue">Send Gift</div>
+             </a>
+            <button id="gift_img" onclick="window.location.href=
+            'sendgift.html';"><img src="assets/gift.png"></button>
+         </div>
+   </div>
       <!-- partial -->
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <script  src="./js/script.js"></script>
-      <div id="donate-button-container" class="donate">
-         <p class="happiness">Send Gift</p>
-         <div id="donate-button"></div>
-         <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-         <script>
-         PayPal.Donation.Button({
-         env:'production',
-         hosted_button_id:'EG8CQ9DYH2D6G',
-         image: {
-            src:"/assets/paypal.png",
-         // src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif',
-         alt:'Donate with PayPal button',
-         title:'PayPal - The safer, easier way to pay online!',
-         }
-         }).render('#donate-button');
-         
-        // buttonShort.style.fontSize = '20px';
-         </script>
-         </div>
+     
    </body>
 
 
