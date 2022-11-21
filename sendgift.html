@@ -1,29 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    <div class="container ">
-    <h1>Send Gift</h1>
-</div>
-    <style>
-        .container{
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            position: relative;
-            top: -250px;
+<html lang="en" >
+   <head>
+      <link rel="shortcut icon" href="favicon.png" type="image/png"> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="description"
+         content="wedding to be held on 07th January .">
+      <meta name="author" content="Eyasu Lingerih">
+      <meta name="email" content="elingerih@gmail.com">
+      <meta name="copyright" content="Eyasu Lingerih " />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Wedding Invitation | 07th Jan | " />
+      <meta property="og:description"
+         content=" wedding to be held on 07th January." />
+      <meta property="og:image" content="jpeg" />
+      <meta property="og:url" content="https://github.com/EyasuLingerih/myweeding/blob/master/assets/invitation%20card.jpeg" />
+      <meta property="og:site_name" content="Wedding Invitation | 07th Jan" />
+      <meta name="twitter:card" content="website">
+      <meta name="twitter:site" content="Wedding Invitation | 07th Jan">
+      <meta name="twitter:title" content="Wedding Invitation | 07th Jan">
+      <meta name="twitter:description"
+         content="on 07th January.">
+      
+     
 
-        }
-                  
-        </style>
-</body>
+      <title>Wedding Invitation | Jan 07 | 
+         </title>
+
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
+      <link rel="stylesheet" href="./css/sendgift.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- partial:index.partial.html -->
+      <div class="sakura-falling"></div>
+      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
+      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"> 
+      <section id="media"></section>
+      <div class="wrap">
+         <div class="title">
+            <h1>Send Gift </h1>
+            
+         </div>
+      </div>
+<!--      <div id="time"></div>
+      <p class="dance-med">
+    <!--  </p>
+      <div class="actions">
+        <a href="gallary.html" target="_blank">
+          <div class="venue">SEE GALLARY</div>
+        </a>
+        <a href="./invitation/Lidya & Eyasu.pdf" download="Invitation | 07 Jan | Hope to see you!">
+          <div class="venue">DOWNLOAD INVITATION CARD</div>
+        </a>
+      </div>
+      
+      <div class="music">
+        <audio src="./assets/mp3/song.mp3" id="my_audio" loop="loop"></audio> 
+      </div>
+     
+   -->
+
+
+
+
+
+   
+   <div id="donate-button-container" class="donate">
+  
+   <div class="bankone"><p class="footer">Comericial Bank Of Ethiopia</p>
+      <p class="bnum">1000480437059</p>
+      <p class="name">Eyasu Lingerih</p>
+   </div>
+   <div class="banktwo"><p class="Tbirr">Tele-Birr</p>
+      <p class="phone">+251913833414</p>
+   </div>
+      <div id="donate-button"></div>
+       <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+       <script>
+       PayPal.Donation.Button({
+       env:'production',
+       hosted_button_id:'EG8CQ9DYH2D6G',
+       image: { 
+          src:"/assets/paypal.png",
+      // src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif',
+       alt:'Donate with PayPal button',
+       title:'PayPal - The safer, easier way to pay online!',
+       
+       }
+       }).render('#donate-button');
+       
+       buttonShort.style.fontSize = '20px';
+       </script>
+       </div>
+ </p> 
+  
+
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+      <script  src="./js/sendgift.js"></script>
+     
+   </body>
+
+
 </html>
