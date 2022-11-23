@@ -556,15 +556,21 @@ body {
     left: 19px;
 }
 .bnum{
-	position: absolute;
+	font-family: 'Dancing Script', cursive;
+    font-size: medium;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    position: absolute;
     color: #fff;
     text-align: center;
     margin-top: 10px;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 24px;
     top: 65px;
     right: 0px;
     left: 19px;
+    padding: 10px;
 
 }
 
@@ -572,6 +578,9 @@ body {
 	position: absolute;
     top: 100px;
     left: 60px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
 }
 
 .payimage{
@@ -579,11 +588,15 @@ body {
 }
 
 .Tbirr{
-	position: absolute;
+	font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    position: absolute;
     top: 250px;
     left: 80px;
 }
 .phone {
+	font-family: 'Dancing Script', cursive;
+    font-size: larger;
     position: absolute;
     top: 300px;
     left: 60px;
@@ -623,11 +636,13 @@ p{
 
 
 .bankone {
+	font-family: 'Dancing Script', cursive;
     display: flex;
     width: 200px;
     height: 200px;
     /* border: 1px #000; */
-    background-color: rgb(20,86,137);
+    background: rgb(34,193,195);
+background: linear-gradient(90deg, rgba(34,193,195,1) 10%, rgba(103,78,167,1) 57%);
     text-decoration-color: #fff;
     /* border-radius: 500%; */
     align-items: center;
@@ -638,7 +653,7 @@ p{
     text-align: center;
     box-shadow: #145689;
     border-radius: 50% 10%;
-    background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
+   
     flex-wrap: wrap;
     align-content: start;
 
@@ -648,8 +663,8 @@ p{
     width: 200px;
     height: 200px;
     /* border: 1px #000; */
-    background-color: rgb(20,86,137);
-    text-decoration-color: #fff;
+	background: rgb(34,193,195);
+background: linear-gradient(90deg, rgba(34,193,195,1) 10%, rgba(103,78,167,1) 57%);
     /* border-radius: 500%; */
     align-items: center;
     justify-content: center;
@@ -659,7 +674,7 @@ p{
     text-align: center;
     box-shadow: #145689;
     border-radius: 50% 10%;
-    background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
+    
     flex-wrap: wrap;
     
 
@@ -686,6 +701,13 @@ p{
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+
+#donate-button-container{
+position: relative;
+top: 0px;
+left: 0px;
+font-family: 'Dancing Script', cursive;
+}
 #donate-button {
 	width: 200px;
     height: auto;
@@ -694,12 +716,6 @@ p{
     top: 230px;
     left: 15px;
 }
-#donate-button-container{
-position: relative;
-top: 0px;
-left: 0px;
-}
-
 
 #DemoCanvas{
 	width: 100%;
