@@ -718,16 +718,19 @@ background: linear-gradient(90deg, rgba(34,193,195,1) 10%, rgba(103,78,167,1) 57
 
 #donate-button-container{
 	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	flex-wrap: wrap;
-	flex-direction: column;
-	margin-top: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+    align-content: space-evenly;
+    position: absolute;
+    left: auto;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 top: 0px;
 left: 0px;
