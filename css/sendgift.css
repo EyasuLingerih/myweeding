@@ -638,7 +638,9 @@ p{
 .bankone {
 	font-family: 'Dancing Script', cursive;
     display: flex;
-    width: 200px;
+	align-items: center;
+	justify-content: center;
+    width: 250px;
     height: 200px;
     /* border: 1px #000; */
     background: rgb(34,193,195);
@@ -679,6 +681,18 @@ background: linear-gradient(90deg, rgba(34,193,195,1) 10%, rgba(103,78,167,1) 57
     
 
 }
+.pay{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
 .twitter {
 	color: #874562;
 }
@@ -703,7 +717,18 @@ background: linear-gradient(90deg, rgba(34,193,195,1) 10%, rgba(103,78,167,1) 57
 }
 
 #donate-button-container{
-position: relative;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
 top: 0px;
 left: 0px;
 font-family: 'Dancing Script', cursive;
@@ -733,3 +758,4 @@ buttonShort.style.fontSize = '20px';
 }
 */
 }
+
