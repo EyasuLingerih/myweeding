@@ -482,6 +482,12 @@ body {
 	margin-right: 8px;
 }
 
+#giftim{
+	background-color: transparent;
+	border-color: transparent;
+	width: 100px;
+	height: 100px;
+}
 .venue a {
 	text-decoration: none;
 	color: #fff;
