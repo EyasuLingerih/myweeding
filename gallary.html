@@ -1,160 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Voyage Slider | GSAP</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./slide.css">
+   <head>
+      <link rel="shortcut icon" href="favicon.png" type="image/png"> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="description"
+         content="wedding to be held on 07th January .">
+      <meta name="author" content="Eyasu Lingerih">
+      <meta name="email" content="elingerih@gmail.com">
+      <meta name="copyright" content="Eyasu Lingerih " />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Wedding Invitation | 07th Jan | " />
+      <meta property="og:description"
+         content=" wedding to be held on 07th January." />
+      <meta property="og:image" content="jpeg" />
+      <meta property="og:url" content="https://github.com/EyasuLingerih/myweeding/blob/master/assets/invitation%20card.jpeg" />
+      <meta property="og:site_name" content="Wedding Invitation | 07th Jan" />
+      <meta name="twitter:card" content="website">
+      <meta name="twitter:site" content="Wedding Invitation | 07th Jan">
+      <meta name="twitter:title" content="Wedding Invitation | 07th Jan">
+      <meta name="twitter:description"
+         content="on 07th January.">
+      
+     
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="app">
+      <title>Wedding Invitation | Jan 07 | 
+         </title>
 
-	<div class="cardList">
-		<button class="cardList__btn btn btn--left">
-			<div class="icon">
-				<svg>
-					<use xlink:href="#arrow-left"></use>
-				</svg>
-			</div>
-		</button>
-
-		<div class="cards__wrapper">
-			<div class="card current--card">
-				<div class="card__image">
-					<img src="assets/img/01.jpg" alt="" />
-				</div>
-			</div>
-
-			<div class="card next--card">
-				<div class="card__image">
-					<img src="assets/img/02.jpg" alt="" />
-				</div>
-			</div>
-         <div class="card previous--card">
-				<div class="card__image">
-					<img src="assets/img/03.jpg" alt="" />
-				</div>
-			</div>
-       <!--  <div class="card next--card1">
-				<div class="card__image">
-					<img src="assets/img/04.jpg" alt="" />
-				</div>
-			</div>
-         <div class="card next--card2">
-				<div class="card__image">
-					<img src="assets/img/05.jpg" alt="" />
-				</div>
-			</div>
-
-			<div class="card next--card3">
-				<div class="card__image">
-					<img src="assets/img/06.jpg" alt="" />
-				</div>
-			</div> -->
-		</div>
-
-		<button class="cardList__btn btn btn--right">
-			<div class="icon">
-				<svg>
-					<use xlink:href="#arrow-right"></use>
-				</svg>
-			</div>
-		</button>
-	</div>
-
-	<div class="infoList">
-		<div class="info__wrapper">
-			<div class="info current--info">
-				<!--<h1 class="text name">Highlands</h1>
-				<h4 class="text location">Scotland</h4>
-				<p class="text description">The mountains are calling</p> -->
-			</div>
-
-			<div class="info next--info">
-				<!--<h1 class="text name">Machu Pichu</h1>
-				<h4 class="text location">Peru</h4>
-				<p class="text description">Adventure is never far away</p> -->
-			</div>
-
-			<div class="info previous--info">
-				<!--<h1 class="text name">Chamonix</h1>
-				<h4 class="text location">France</h4>
-				<p class="text description">Let your dreams come true</p> -->
-			</div>
-         <div class="info previous--info">
-				<!--<h1 class="text name">Chamonix</h1>
-				<h4 class="text location">France</h4>
-				<p class="text description">Let your dreams come true</p> -->
-			</div>
-         <div class="info previous--info">
-				<!--<h1 class="text name">Chamonix</h1>
-				<h4 class="text location">France</h4>
-				<p class="text description">Let your dreams come true</p> -->
-			</div>
-		</div>
-	</div>
-
-
-	<div class="app__bg">
-		<div class="app__bg__image current--image">
-			<img src="assets/img/01.jpg" alt="" />
-		</div>
-		<div class="app__bg__image next--image">
-			<img src="assets/img/02.jpg" alt="" />
-		</div>
-		<div class="app__bg__image previous--image">
-			<img src="assets/img/03.jpg" alt="" />
-		</div>
-		<div class="app__bg__image current--image">
-			<img src="assets/img/04.jpg" alt="" />
-		</div>
-		<div class="app__bg__image next--image">
-			<img src="assets/img/05.jpg" alt="" />
-		</div>
-		<div class="app__bg__image previous--image">
-			<img src="assets/img/06.jpg" alt="" />
-		</div>
-	</div>
-</div>
-
-<div class="loading__wrapper">
-	<div class="loader--text">Loading...</div>
-	<div class="loader">
-		<span></span>
-	</div>
-</div>
-
-
-<svg class="icons" style="display: none;">
-	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-		<polyline points='328 112 184 256 328 400'
-					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-	</symbol>
-	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-		<polyline points='184 112 328 256 184 400'
-					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-	</symbol>
-</svg>
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
+      <link rel="stylesheet" href="./css/sendgift.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- partial:index.partial.html -->
+      <div class="sakura-falling"></div>
+      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
+      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"> 
+      <section id="media"></section>
+      <div class="wrap">
+         <div class="title">
+            <h1>Coming Soon </h1>
+            
+         </div>
+      </div>
+<!--      <div id="time"></div>
+      <p class="dance-med">
+    <!--  </p>
+      <div class="actions">
+        <a href="gallary.html" target="_blank">
+          <div class="venue">SEE GALLARY</div>
+        </a>
+        <a href="./invitation/Lidya & Eyasu.pdf" download="Invitation | 07 Jan | Hope to see you!">
+          <div class="venue">DOWNLOAD INVITATION CARD</div>
+        </a>
+      </div>
+      
+      <div class="music">
+        <audio src="./assets/mp3/song.mp3" id="my_audio" loop="loop"></audio> 
+      </div>
+     
+   -->
 
 
 
 
 
+   
+   <!-- <div id="donate-button-container" class="donate">
+  
+   <div class="bankone"><p class="footer">Comericial Bank Of Ethiopia</p>
+      <p class="swift">SWIFT Code   CBETETAA</p>
+      
+      <p class="bnum">1000480437059</p>
+      <p class="name">Eyasu Lingerih</p>
+   </div>
+
+ <div class="banktwo"><p class="Tbirr">Tele-Birr</p>
+      <p class="phone">+251913833414</p> 
+   </div> -->
+
+      <div id="donate-button-container" class="button"></div>
 
 
+    <!--  <div id="donate-button" class="button"></div>
+
+       <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+       <script>
+       PayPal.Donation.Button({
+       env:'production',
+       hosted_button_id:'EG8CQ9DYH2D6G',
+       image: { 
+          src:"/assets/paypal.png",
+      // src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif',
+       alt:'Donate with PayPal button',
+       title:'PayPal - The safer, easier way to pay online!',
+       width: 200, height : 200
+       },
+       }
+       
+       
+       
+       ).render('#donate-button-container');
+      // document.getElementById("donate-button").innerHTML =<div class="button"></div>;
+
+       //buttonShort.style.fontSize = '20px';
+       </script>
+       </div> -->
+   </div>
+  
+
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+      <script  src="./js/sendgift.js"></script>
+     
+   </body>
 
 
-
-
-<div class="support">
-	<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
-	<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
-</div>
-<!-- partial -->
-  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./myscript.js"></script>
-
-</body>
 </html>

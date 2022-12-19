@@ -573,8 +573,8 @@ a {
 	width: 30vh;
 	height: 30vh;
 	position: relative;
-	left: -65px;
-	top: -60px;
+	left: -75px;
+	top: 10px;
 	
 }
 
@@ -608,6 +608,10 @@ right: 0;
 left: 0;
 }
 #donate-button-container a{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 width :1000px;
 height :auto; 
 /* buttonShort.style.background = 'teal'; 
