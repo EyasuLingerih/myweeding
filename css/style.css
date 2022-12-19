@@ -355,7 +355,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
 }
 
@@ -581,7 +581,7 @@ a {
 #zoom{
 	background-color: transparent;
 	border: transparent;
-	max-width: 80%;
+	max-width: 50%;
 	position: relative;
 }
 #gift_img{
