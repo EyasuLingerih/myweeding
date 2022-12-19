@@ -563,6 +563,21 @@ a {
 	text-align: center;
 	margin-bottom: 24px;
 }
+#zoom{
+	background-color: transparent;
+	border: transparent;
+}
+#gift_img{
+	background-color: transparent;
+	border: transparent;
+	width: 30vh;
+	height: 30vh;
+	position: relative;
+	left: -65px;
+	top: -60px;
+	
+}
+
 
 .twitter {
 	color: #874562;
