@@ -445,6 +445,7 @@ img {
     border-color: transparent;
 	display: flex;
 	justify-content: center;
+	margin: 10px;
 }
 }
 /** **/
@@ -500,6 +501,7 @@ body {
 #button{
 	background-color: transparent;
     border-color: transparent;
+	margin-top: 10px;
 }
 
 .container {
