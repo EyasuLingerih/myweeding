@@ -440,7 +440,13 @@ img {
 	/* min-height:100%; */
 }
 
-
+.social{
+	background-color: transparent;
+    border-color: transparent;
+	display: flex;
+	justify-content: center;
+}
+}
 /** **/
 
 * {
@@ -495,7 +501,7 @@ body {
 	background-color: transparent;
     border-color: transparent;
 }
-}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -575,6 +581,8 @@ a {
 #zoom{
 	background-color: transparent;
 	border: transparent;
+	max-width: 30%;
+	position: relative;
 }
 #gift_img{
 	background-color: transparent;
