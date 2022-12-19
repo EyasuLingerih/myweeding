@@ -484,15 +484,18 @@ body {
 
 #giftim{
 	background-color: transparent;
-	border-color: transparent;
-	width: 100px;
-	height: 100px;
+    border-color: transparent;
+    max-width: 80%;
 }
 .venue a {
 	text-decoration: none;
 	color: #fff;
 }
-
+#button{
+	background-color: transparent;
+    border-color: transparent;
+}
+}
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
