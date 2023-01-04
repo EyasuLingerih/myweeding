@@ -472,11 +472,8 @@ body {
 	left: 50px;
 	margin-top: 20px;
 }
-.galary{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
+
 .title {
 	margin-bottom: 40px;
 }
